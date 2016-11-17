@@ -44,6 +44,7 @@ module.exports = React.createClass
     @_cancelTimer()
 
   _setupTimer: ->
+    @_cancelTimer()
     @_setScale()
     @_setupCanvas()
     @_drawTimer()

@@ -7,7 +7,7 @@
     body {
       background-color: #CCC;
     }
-    #parappa { 
+    #parappa {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -37,7 +37,7 @@
     var Demo = React.createClass({
       displayName: 'Demo',
       getState: function(){
-        return { 
+        return {
           seconds: randomAmountOfSeconds(),
           color: randomColor()
         }
@@ -54,7 +54,7 @@
             seconds: this.state.seconds,
             color: this.state.color,
             alpha: 0.9,
-            onComplete: this.handleOnComplete 
+            onComplete: this.handleOnComplete
           })
         )
       }
